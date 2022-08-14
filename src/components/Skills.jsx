@@ -11,12 +11,7 @@ function Skills() {
                 <div className="skill-icon react-icon">
                     <i class="fa-brands fa-react"></i>
                 </div>
-                <h3 className='skill-title'>React</h3>
-                <p className='skill-body'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deleniti porro, commodi in cumque blanditiis ad aliquid ut 
-                    ratione doloribus, quidem ex quo totam dolor, praesentium cum 
-                    expedita odit iste! Excepturi.
-                </p>  
+                <h3 className='skill-title'>React</h3>  
              </div>
 
              <div className="skill">
@@ -24,11 +19,6 @@ function Skills() {
                     <i class="fa-brands fa-js"></i>
                 </div>
                 <h3 className='skill-title'>JavaScript</h3>
-                <p className='skill-body'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deleniti porro, commodi in cumque blanditiis ad aliquid ut 
-                    ratione doloribus, quidem ex quo totam dolor, praesentium cum 
-                    expedita odit iste! Excepturi.
-                </p>  
              </div>
 
              <div className="skill">
@@ -36,11 +26,6 @@ function Skills() {
                     <i class="fa-brands fa-python"></i>
                 </div>
                 <h3 className='skill-title'>Python</h3>
-                <p className='skill-body'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Deleniti porro, commodi in cumque blanditiis ad aliquid ut 
-                    ratione doloribus, quidem ex quo totam dolor, praesentium cum 
-                    expedita odit iste! Excepturi.
-                </p>  
              </div>
 
 

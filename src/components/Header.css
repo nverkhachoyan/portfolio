@@ -3,8 +3,8 @@
     justify-content: space-around;
     align-items: center;
     max-width: 1200px;
+    height: 80vh;
     margin: 0 auto;
-    margin-top: 3em;
     padding: 5em 0;
 }
 
