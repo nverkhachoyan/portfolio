@@ -15,18 +15,15 @@ function Navbar() {
             <div className='navbar-container'>
                     <div className="navbar-logo">
                         <Link to='/'>
-                            <img className='logo-smiley' src={logo} alt="" />
-                        </Link>
-                        <Link to='/'>
-                            <h2 className="logo-title">Nver Khachoyan</h2>
+                            <h2 className="logo-title">&#123; Nver Khachoyan &#125;</h2>
                         </Link>
                     </div>
                 <nav>
                     <ul>
                         <li><a href="/"  className={path === '/' ? 'navbar-link-active' : ''}>Home</a></li>
-                        <li><a href="/" className={path === '/projects' ? 'navbar-link-active' : ''}>Projects</a></li>
-                        <li><a href="/" className={path === '/contacts' ? 'navbar-link-active' : ''}>Contacts</a></li>
-                        <li><a href="/" className={path === '/about' ? 'navbar-link-active' : ''}>About</a></li>
+                        <li><a href="#projects-and-skills" className={path === '/projects' ? 'navbar-link-active' : ''}>Projects</a></li>
+                        <li><a href="#contact-me" className={path === '/contacts' ? 'navbar-link-active' : ''}>Contacts</a></li>
+                        <li><a href="#about-me" className={path === '/about' ? 'navbar-link-active' : ''}>About</a></li>
                     </ul>
                 </nav>
             </div>

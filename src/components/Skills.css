@@ -1,5 +1,5 @@
 .skills {
-    margin: 7em 0;
+    padding: 1em 0;
 }
 
 .skills-headline {
@@ -10,7 +10,7 @@
     display: inline-block;
     font-weight: 300;
     border-bottom: 1px solid #333;
-    margin-bottom: 3em;
+    margin-bottom: 2em;
 }
 
 .skills-container {

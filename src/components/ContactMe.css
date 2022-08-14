@@ -1,3 +1,7 @@
+.contact-me {
+    padding: 2em 0;
+}
+
 .contact-me-headline {
     text-align: center;
 }
@@ -14,3 +18,10 @@
     display: flex;
     justify-content: space-around;
 }
+
+/* #contact-me:target {
+    display: block;    
+    position: relative;     
+    padding-top: 2em;
+ 
+} */

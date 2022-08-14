@@ -9,7 +9,7 @@ function Header() {
        <div className="header-container">
         <div className="header-card">
             <h2 className="header-greeting">Hey, I'm Nver Khachoyan</h2>
-            <h1 className="header-body">&#123; I make custom websites and web apps &#125;</h1>
+            <h1 className="header-body">I make custom websites and web apps</h1>
             <div className="socials">
                 <h3>Find Me On Social Media</h3>
                 <div className="socials-container">

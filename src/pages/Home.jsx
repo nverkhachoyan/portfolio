@@ -27,25 +27,30 @@ function Home() {
     <div className='home'>
       <div className="home-container">
 
-
         <div id='header-id' className='header-section section' >
           <Navbar/>
           <Header />
           <div className="arrow-down">
+            <a href="#projects-and-skills">
             <i className='fa-solid fa-angles-down'></i>
+
+            </a>
           </div>
         </div>
 
-        <div id='projects-and-skills-id' className="projects-and-skills-section section">
+        <div id='projects-and-skills'>
           <Projects />
           <Skills />
         </div>
 
-        <div id='about-me-id' className="about-me-section section">
-          <ContactMe />
+        
+        <ContactMe />
+       
+
+   
           <AboutMe />
           <Footer /> 
-        </div>
+    
 
         
       </div>

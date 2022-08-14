@@ -3,7 +3,7 @@ import imageUrl from '../assets/images/nverkhachoyan-sf.jpeg'
 
 function AboutMe() {
   return (
-    <section className='about-me'>
+    <section id='about-me' className='about-me'>
         <div className='about-me-headline'>
             <h2>About Me</h2>
         </div>
