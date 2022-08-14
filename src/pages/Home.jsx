@@ -28,7 +28,7 @@ function Home() {
       <div className="home-container">
 
 
-        <div className='header-section section' >
+        <div id='header-id' className='header-section section' >
           <Navbar/>
           <Header />
           <div className="arrow-down">
@@ -36,12 +36,12 @@ function Home() {
           </div>
         </div>
 
-        <div className="projects-and-skills-section section">
+        <div id='projects-and-skills-id' className="projects-and-skills-section section">
           <Projects />
           <Skills />
         </div>
 
-        <div className="about-me-section section">
+        <div id='about-me-id' className="about-me-section section">
           <ContactMe />
           <AboutMe />
           <Footer /> 

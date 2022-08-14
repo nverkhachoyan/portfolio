@@ -1,7 +1,8 @@
 .home {
-   
     height: 100vh;
-    
+    transition: 4s ease-in-out;
+    scroll-behavior: smooth;
+
 }
 
 .home-container {
@@ -9,11 +10,16 @@
     height: 100%;
     scroll-snap-type: y proximity;
     overflow-y: scroll;
+    scroll-behavior: smooth;
+    
+
 }
 
 .section {
-    scroll-snap-align: start;
+    scroll-snap-align: center;
     height: 100vh;
+    scroll-behavior: smooth;
+
 }
 
 .projects-and-skills-section {
