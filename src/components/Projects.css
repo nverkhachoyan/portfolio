@@ -71,6 +71,10 @@
         width: 95%;
     }
 
+    .projects {
+        padding: 0;
+    }
+
     .project {
         width: 300px;
         display: flex;
