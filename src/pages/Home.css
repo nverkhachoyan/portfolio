@@ -1,0 +1,28 @@
+.header-section {
+    height: 100vh;
+    position: relative;
+    transition: 1s ease-in-out;
+}
+
+@keyframes example {
+    0% {bottom: 1em;}
+    50% {bottom: .8em;}
+    100% {bottom: 1em;}
+  }
+
+.arrow-down {
+    position: absolute;
+    bottom: 1em;
+    left: 50%;
+    font-size: 2em;
+    font-weight: 300;
+    transition: 2s ease-in-out;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+.slide {
+    transform :translateY(-100%);
+    opacity:0;
+}
