@@ -157,7 +157,9 @@
         height: 200px;
         object-fit: cover;
         border-radius: 50%;
- 
- 
+    }
+
+    .arrow-down {
+        font-size: 1em;
     }
 }
