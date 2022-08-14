@@ -76,3 +76,88 @@
 .socials-container a:hover {
     color: rgba(51, 51, 51, 0.579);
 }
+
+
+/* Animations */
+
+@keyframes example {
+    0% {bottom: 1em;}
+    50% {bottom: .8em;}
+    100% {bottom: 1em;}
+  }
+
+.arrow-down {
+    font-size: 2em;
+    font-weight: 300;
+    transition: 0.2s ease-in-out;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+    transform: translate(-50%, 5%); /* This is a shorthand of translateX(-50%) and translateY(-50%) */
+}
+
+.arrow-down a {
+    color: #333;
+}
+
+.arrow-down:hover {
+    color: rgb(135, 135, 135);
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and
+(min-width: 768px) and
+(max-width: 1023px) {
+    .header-container {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+
+    .header-card {
+        font-size: 0.7rem;
+        align-items: center;
+    }
+
+    .header-image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+ 
+ 
+    }
+}
+
+@media screen and
+(max-width: 767px) {
+    .header-container {
+        flex-direction: column-reverse;
+        gap: 1em;
+        height: 70vh;
+    }
+
+    .header-card {
+        font-size: 0.5rem;
+        align-items: center;
+    }
+
+    .reach-out {
+         padding: 1em;
+         margin: 0;
+         font-size:.6rem;
+    }
+    
+    .header-image img {
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 50%;
+ 
+ 
+    }
+}

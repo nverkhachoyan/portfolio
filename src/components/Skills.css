@@ -52,3 +52,12 @@
     margin: 0.5em 0;
 }
 
+/* Media Queries */
+
+@media screen and
+(max-width: 767px) {
+    .skills-container {
+        flex-direction: column-reverse;
+        gap: 1em;
+    }
+}
