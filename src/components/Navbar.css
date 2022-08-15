@@ -52,9 +52,12 @@
     border-bottom: 1px solid #333;
 }
 
+/* Theme */
+
 .toggleTheme {
     cursor: pointer;
 }
+ 
 
 #dark .toggleTheme {
     color: #fff;

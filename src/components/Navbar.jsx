@@ -8,7 +8,7 @@ import './Navbar.css'
 function Navbar() {
     const location = useLocation()
     const path = location.pathname
-    const {toggleTheme} = useContext(ThemeContext)
+    const {theme, toggleTheme} = useContext(ThemeContext)
 
     return (
         <div className='navbar'>
@@ -24,8 +24,9 @@ function Navbar() {
                         <li><a href="#projects-and-skills" className={path === '/projects' ? 'navbar-link-active' : ''}>Projects</a></li>
                         <li><a href="#contact-me" className={path === '/contacts' ? 'navbar-link-active' : ''}>Contacts</a></li>
                         <li><a href="#about-me" className={path === '/about' ? 'navbar-link-active' : ''}>About</a></li>
-                        <li className='toggleTheme' onClick={() => toggleTheme()}>
-                            <i   className="fa-solid fa-sun"></i>
+                        <li key={Math.random()} className='toggleTheme' onClick={() => toggleTheme()}>
+                            {/* {theme === 'light' ? (<i className="fa-solid fa-sun"></i>) : (<i class="fa-solid fa-moon"></i>)} */}
+                            <i className={`fa-solid fa-${theme === 'light' ? 'moon' : 'sun'}`}></i>
                         </li>
                     </ul>
                 </nav>
