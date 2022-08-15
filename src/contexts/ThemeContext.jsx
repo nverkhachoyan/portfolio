@@ -24,8 +24,6 @@ function UseThemeContext({children}) {
     })
   }
 
-  console.log('LOCAL STORAAAAGE', localStorage.getItem('theme'))
-
   useEffect(() => {
       if (localStorage.getItem('theme')) {
         setTheme(localStorage.getItem('theme'))
