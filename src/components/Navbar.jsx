@@ -1,14 +1,14 @@
-import React from 'react'
+import {useContext} from 'react'
 import { useLocation } from 'react-router-dom'
 import { Link } from 'react-router-dom'
-
-import logo from '../assets/images/logo.png'
+import { ThemeContext } from '../contexts/ThemeContext'
 
 import './Navbar.css'
 
 function Navbar() {
     const location = useLocation()
     const path = location.pathname
+    const {toggleTheme} = useContext(ThemeContext)
 
     return (
         <div className='navbar'>
@@ -24,6 +24,9 @@ function Navbar() {
                         <li><a href="#projects-and-skills" className={path === '/projects' ? 'navbar-link-active' : ''}>Projects</a></li>
                         <li><a href="#contact-me" className={path === '/contacts' ? 'navbar-link-active' : ''}>Contacts</a></li>
                         <li><a href="#about-me" className={path === '/about' ? 'navbar-link-active' : ''}>About</a></li>
+                        <li className='toggleTheme' onClick={() => toggleTheme()}>
+                            <i   className="fa-solid fa-sun"></i>
+                        </li>
                     </ul>
                 </nav>
             </div>

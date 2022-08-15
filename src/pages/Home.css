@@ -1,37 +1,11 @@
 .home {
-    height: 100vh;
+    /* height: 100vh; */
     transition: 4s ease-in-out;
     scroll-behavior: smooth;
 
 }
 
-.home-container {
-    width: 100%;
-    height: 100%;
-}
-
- .section {
+.section {
     height: 100vh;
 }
-/*
-.projects-and-skills-section {
-    padding-top: 0.1em;
-}
-
-.about-me-section {
-    padding-top: 0.1em;
-
-}
-
-.header-section {
-    height: 100vh;
-    position: relative;
-    transition: 1s ease-in-out;
-} */
-
-
-
-/* .slide {
-    transform :translateY(-100%);
-    opacity:0;
-} */
+ 

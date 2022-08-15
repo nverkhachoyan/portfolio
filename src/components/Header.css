@@ -43,6 +43,7 @@
     transition: 0.2s ease-in-out;
     border: 1px solid #14142b;
     align-self: center;
+    text-decoration: none;
 }
 
 .reach-out:hover {
@@ -106,6 +107,13 @@
 .arrow-down:hover {
     color: rgb(135, 135, 135);
     cursor: pointer;
+}
+
+/* Dark Theme */
+
+#dark .header-image img {
+    border: 2px solid #000;
+    box-shadow: 5px 5px 10px rgba(67, 67, 67, 0.404);
 }
 
 /* Media Queries */

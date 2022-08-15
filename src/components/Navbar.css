@@ -52,6 +52,18 @@
     border-bottom: 1px solid #333;
 }
 
+.toggleTheme {
+    cursor: pointer;
+}
+
+#dark .toggleTheme {
+    color: #fff;
+}
+
+#light .toggleTheme {
+    color: #000;
+}
+
 /* Media Queries */
 
 @media screen and

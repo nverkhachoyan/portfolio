@@ -9,21 +9,21 @@ function Skills() {
         <div className='skills-container'>
              <div className="skill">
                 <div className="skill-icon react-icon">
-                    <i class="fa-brands fa-react"></i>
+                    <i className="fa-brands fa-react"></i>
                 </div>
                 <h3 className='skill-title'>React</h3>  
              </div>
 
              <div className="skill">
                 <div className="skill-icon js-icon">
-                    <i class="fa-brands fa-js"></i>
+                    <i className="fa-brands fa-js"></i>
                 </div>
                 <h3 className='skill-title'>JavaScript</h3>
              </div>
 
              <div className="skill">
                 <div className="skill-icon python-icon">
-                    <i class="fa-brands fa-python"></i>
+                    <i className="fa-brands fa-python"></i>
                 </div>
                 <h3 className='skill-title'>Python</h3>
              </div>

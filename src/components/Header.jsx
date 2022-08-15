@@ -27,7 +27,7 @@ function Header() {
                         </a>
                     </div>
                 </div>
-                <span className="reach-out">Reach Out</span>
+                <a className="reach-out" href="#contact-me">Reach Out</a>
             </div>
             <div className="header-image">
                 <img src={headerImageUrl} alt="" />
