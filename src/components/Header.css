@@ -171,4 +171,8 @@
     .arrow-down {
         font-size: 1em;
     }
+    .header-greeting {
+        font-weight: 400;
+        font-size: 1.4rem;
+    }
 }
