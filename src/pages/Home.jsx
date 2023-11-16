@@ -14,20 +14,20 @@ function Home() {
       <div className="home-container">
 
         <div id='header-id' className='header-section section' >
-          <Navbar/>
+          <Navbar />
           <Header />
         </div>
 
-        <div id='projects-and-skills'>
-          <Projects />
-          <Skills />
-        </div>
+        {/* <div id='projects-and-skills'> */}
+        {/* <Projects /> */}
+        {/* <Skills /> */}
+        {/* </div> */}
 
-        
-        <ContactMe />
-        <AboutMe />
-        <Footer /> 
-        
+
+        {/* <ContactMe /> */}
+        {/* <AboutMe /> */}
+        <Footer />
+
       </div>
     </div>
   )
