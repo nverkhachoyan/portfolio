@@ -39,9 +39,7 @@
 .project-image {
     height: 150px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px rgb(119, 119, 119);
     margin-bottom: 1em;
-    object-fit: cover;
 }
 
 .project-body {

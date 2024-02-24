@@ -1,11 +1,5 @@
 .home {
-    /* height: 100vh; */
-    transition: 4s ease-in-out;
+    /* transition: 4s ease-in-out; */
     scroll-behavior: smooth;
-
 }
 
-.section {
-    height: 100vh;
-}
- 

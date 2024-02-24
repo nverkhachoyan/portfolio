@@ -21,15 +21,10 @@ function Navbar() {
                 <nav>
                     <ul>
                         <li><a href="/" className={path === '/' ? 'navbar-link-active' : ''}>Home</a></li>
-                        <li><a href="http://stats.nverk.me">Stats Notes</a></li>
                         <li><a href="http://blog.nverk.me">Blog</a></li>
                         {/* <li><a href="#projects-and-skills" className={path === '/projects' ? 'navbar-link-active' : ''}>Projects</a></li> */}
                         {/* <li><a href="#contact-me" className={path === '/contacts' ? 'navbar-link-active' : ''}>Contacts</a></li> */}
                         {/* <li><a href="#about-me" className={path === '/about' ? 'navbar-link-active' : ''}>About</a></li> */}
-                        <li key={Math.random()} className='toggleTheme' onClick={() => toggleTheme()}>
-                            {/* {theme === 'light' ? (<i className="fa-solid fa-sun"></i>) : (<i class="fa-solid fa-moon"></i>)} */}
-                            <i className={`fa-solid fa-${theme === 'light' ? 'moon' : 'sun'}`}></i>
-                        </li>
                     </ul>
                 </nav>
             </div>
