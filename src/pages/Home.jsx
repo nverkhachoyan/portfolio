@@ -6,6 +6,7 @@ import Projects from '../components/Projects'
 import Resume from '../components/Resume'
 
 import './Home.css'
+import Books from '../components/books/Books'
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
 
         <Skills />
         <Projects />
-        <Resume />
+        <Books />
         <Footer />
       </div>
     </div>

@@ -1,0 +1,40 @@
+.projects {
+    padding: 2em 0;
+}
+
+.projects-headline {
+    text-align: center;
+}
+
+.projects-headline h2 {
+    display: inline-block;
+    font-weight: 300;
+    border-bottom: 1px solid #333;
+}
+
+.projects-container {
+    max-width: 1200px;
+    margin: 3em auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.book-image {
+    width: auto;
+    height: 300px;
+    margin: 0  auto;
+}
+
+.book-card {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    text-decoration: underline;
+}
